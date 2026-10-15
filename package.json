@@ -1,0 +1,27 @@
+{
+  "name": "appliance-manager",
+  "private": true,
+  "version": "1.0.0",
+  "description": "تطبيق شخصي لإدارة أسعار الأجهزة المنزلية (كاش / تقسيط) — PWA للآيفون",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview --host",
+    "test": "node --experimental-strip-types --no-warnings --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@fontsource/cairo": "^5.1.0",
+    "dexie": "^4.0.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
